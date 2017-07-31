@@ -4,7 +4,7 @@
 Administrado para taller automotriz.
 
 
-###Características
+### Características
 
 - Registro de vehículos
 - Registro de clientes
@@ -15,7 +15,7 @@ Administrado para taller automotriz.
 - Reportes (Vehículos, fallas comunes)
 - (Propuesta) Descarga de facturas
 
-###Clientes
+### Clientes
 
 - Registro
 - Mis vehículos
@@ -23,4 +23,8 @@ Administrado para taller automotriz.
 - Programar servicio
 - Historial de mantenimiento
 - Habilitar notificaciones
--
+
+
+### Instalación
+
+Es un proyecto de Phoenix, por lo que puedes usar cualquier tutorial de Phoenix

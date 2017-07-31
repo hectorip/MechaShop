@@ -10,10 +10,10 @@ config :mechaShop,
   ecto_repos: [MechaShop.Repo]
 
 # Configures the endpoint
-config :mechaShop, MechaShop.Endpoint,
+config :mechaShop, MechaShopWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "ARd6UAE/wvdbsU9RjVjOiYLClfYWMEq3e9jTCqBziOouMB3IvP3y4+8KDBXkI0y+",
-  render_errors: [view: MechaShop.ErrorView, accepts: ~w(html json)],
+  secret_key_base: "VosDyfBg/dntKdtAguE2y5e4f7y7ljXLDE3+4vb1DbVs5FJZlPCVzdyO0zQjNE70",
+  render_errors: [view: MechaShopWeb.ErrorView, accepts: ~w(html json)],
   pubsub: [name: MechaShop.PubSub,
            adapter: Phoenix.PubSub.PG2]
 
